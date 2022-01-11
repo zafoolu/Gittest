@@ -1,0 +1,49 @@
+
+_________________________________________________________
+
+Neue Lokale Git Repository erstellen: git init
+_________________________________________________________
+
+_________________________________________________________
+
+Dateien zur Staging Area hinzufügen: git add . (fügt alle Dateien hinzu) 
+oder git add ~filename~ (fügt nur diese eine Datei hinzu)
+_________________________________________________________
+
+_________________________________________________________
+
+Staging Area checken: git status
+_________________________________________________________
+
+_________________________________________________________
+
+Dateien in der Repo "abspeichern": git commit -m "commit message"
+(Commit message muss hinzugefügt werden, sonst funktionierts nicht)
+_________________________________________________________
+
+_________________________________________________________
+
+Remote Repo hinzufügen und verbinden: git remote add ~remote name~ ~https://yourremoteurl~
+_________________________________________________________
+
+_________________________________________________________
+
+Veränderungen von der Remote Repo (Github) ziehen: wenn schon im Ordner -> git pull
+ansonten ->  git pull ~remote name~ ~branch name~
+_________________________________________________________
+
+_________________________________________________________
+
+Veränderungen von der Lokalen Repo in die Remote Repo pushen: wenn schon im Ordner-> git push
+ansonten -> git push ~remote name~ ~branch name~
+_________________________________________________________
+
+_________________________________________________________
+
+Neuen Branch erstellen: git checkout -b ~branch name~
+(Erstellt und wechselt direkt ins erstellte Branch)
+
+Zwischen Branches wechseln: git checkout ~branch name~
+
+Merge Branches: git merge ~branch name~
+_________________________________________________________
